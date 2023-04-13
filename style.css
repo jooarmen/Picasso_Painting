@@ -1,0 +1,29 @@
+/* This is CSS for top three boxes */
+.threebox{
+    height: 15rem;
+    width: 35rem;
+    padding: 1rem;
+    margin: .5rem;
+    background-color: #00989D;
+}
+#threebox{
+    display: flex;
+    justify-content: space-between;
+}
+/* This is CSS for large bottom box */
+.onebox{
+    height: 40rem;
+    width: 107.4rem;
+    background-color: #00989D;
+    padding: 1rem;
+    margin: .5rem;
+}
+/* This is CSS for long skinny bottom box*/
+.longbox{
+    height: .5rem;
+    width: 107.4rem;
+    background-color: #C9E265;
+    padding: 1rem;
+    margin: .5rem;
+}
+
