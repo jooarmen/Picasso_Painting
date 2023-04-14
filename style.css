@@ -17,6 +17,7 @@
     background-color: #00989D;
     padding: 1rem;
     margin: .5rem;
+    position: relative;
 }
 /* This is CSS for long skinny bottom box*/
 .longbox{
@@ -26,4 +27,25 @@
     padding: 1rem;
     margin: .5rem;
 }
-
+.circle{
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+.circle1{
+    background-color: #fe8888;
+    width: 5rem;
+    height: 5rem;
+    top: 5rem;
+    left: 2rem;
+    z-index: 1;
+}
+.circle2{
+    background-color: yellow;
+    width: 8rem;
+    height: 8rem;
+    top: 8rem;
+    left: 15rem;
+    z-index: 1;
+}
